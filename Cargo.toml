@@ -1,0 +1,10 @@
+[package]
+name = "git-ruler"
+version = "0.1.0"
+authors = ["mvaude <maxime.vaude@scality.com>"]
+
+[dependencies]
+clap="2.10.2"
+
+[workspace]
+members = ["./pre-commit"]
